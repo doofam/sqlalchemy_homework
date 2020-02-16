@@ -45,8 +45,8 @@ def home():
         f"<br/>"
         f"/api/v1.0/precipitation --> returns precipitation data in Hawaii by date<br/>"
         f"/api/v1.0/temperature --> returns temperature data in Hawaii by date <br/>"
-        f"/api/v1.0/temps/<start> --> returns a list of the average temperature, the min temperature, and the max temperature for all dates greater than and equal to the start date. <br/>"
-        f"/api/v1.0/temps/<start>/<end> --> rreturns a list of the average temperature, the min temperature, and the max temperature for dates between the start and end date inclusive. <br/>"
+        f"/api/v1.0/temps/<start> --> returns the average, min, and max temperature for all dates greater than and equal to the start date. <br/>"
+        f"/api/v1.0/temps/<start>/<end> --> returns the average, min, and max temperature for dates between the start and end date inclusive. <br/>"
         f"<br/>"
         f"NOTE: Dates should be formatted YYYY-MM-DD")
 
