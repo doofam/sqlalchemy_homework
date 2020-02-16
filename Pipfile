@@ -5,6 +5,7 @@ verify_ssl = true
 
 [dev-packages]
 black = "*"
+pylint = "*"
 
 [packages]
 sqlalchemy = "*"
@@ -14,6 +15,8 @@ ipython = "*"
 nbconvert = "*"
 pandas = "*"
 matplotlib = "*"
+jupyterlab = "*"
+ipykernal = "*"
 
 [requires]
 python_version = "3.7"
